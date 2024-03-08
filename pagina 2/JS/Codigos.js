@@ -1,1 +1,0 @@
-alert("dale link al server")
