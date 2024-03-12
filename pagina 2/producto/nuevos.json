@@ -1,0 +1,27 @@
+[
+    {
+        "nombre": "INTEL CORE I3 10100",
+        "imagen": "imagenes/procesadores/procesador i3.png",
+        "codigo": "2552",
+        "precio": "S/436.70"
+    },
+    {
+        "nombre": "SEAGATE HDD 1T SATA",
+        "imagen": "imagenes/almacenamiento/SEGARE HDD 1t.png",
+        "codigo": "2552",
+        "precio": "S/436.70"
+    },
+    {
+        "nombre": "SEAGATE HDD 1T SATA",
+        "imagen": "imagenes/almacenamiento/SEGARE HDD 1t.png",
+        "codigo": "2552",
+        "precio": "S/436.70"
+    },
+    {
+        "nombre": "SAMSUNG SSD M.2 500GB",
+        "imagen": "imagenes/almacenamiento/SSD M2 500GB.png",
+        "codigo": "2552",
+        "precio": "S/436.70"
+    }
+    
+]

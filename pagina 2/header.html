@@ -1,24 +1,71 @@
-<nav>
+<nav class="nav-bar">
     <div>
         <ul class="nav-1 flex-line">
-            <li><a href="#"><H1>compuma<span style="color: red;">x</span></H1></a></li>
+            <li><a href="index.html"><H1>compuma<span style="color: red;">x</span></H1></a></li>
             <li><form action="">
                     <input type="text">
                     <button>Buscar</button>
                 </form>
             </li>
-            <li><button>Inicio de sesion</button></li>
+            <!-- <li><button></button></li> -->
+            <li><button type="button">Inicio de sesion</button></li>
         </ul>
     </div>
     <div>
         <ul class="nav-2 flex-line" style="padding-left: 0px;">
-            <li><button class="lt-nav-1"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="24" fill="currentColor" class="bi bi-justify-left" viewBox="0 0 16 16">
+
+            <li class="dropdown"><button class="lt-nav-1"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="24" fill="currentColor" class="bi bi-justify-left" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5m0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5"/>
-              </svg>Categoria</button></li>
+              </svg>Categoria</button>
+              <ul class="collapse-lug dropdown-content doble-colum">
+                <div>
+                    <li><a href="">CPU</a></li>
+                    <li><a href="">PLACAS</a></li>
+                    <li><a href="">MEMORIAS</a></li>
+                    <li><a href="">ALMACENAMIENTO</a></li>
+                    <li><a href="">CASE</a></li>
+                    <li><a href="">FUENTES</a></li>
+                    <li><a href="">LAPTOP</a></li>
+                </div>
+                <div>
+                    <li><a href="">PERIFERICOS</a></li>
+                    <li><a href="">PANTALLAS</a></li>
+                    <li><a href="">IMPRESORAS</a></li>
+                    <li><a href="">ANTIVIRUS</a></li>
+                    <li><a href="">SO</a></li>
+                    <li><a href="">DISEÑO</a></li>
+                    <li><a href="">OFICINA</a></li>
+                </div>
+              </ul>
+            </li>
+
             <li><button class="lt-nav-2" style="color: rgb(255, 0, 0);"><b>Ofertas</b></button></li>
-            <li><button class="lt-nav-2">Marcas</button></li>
-            <li><button class="lt-nav-2">Tienda</button></li>
-            <li><button class="lt-nav-3">Conocenos</button></li>
+
+            <li class="dropdown"><button class="lt-nav-2">Marcas</button>
+                <ul class="collapse-lug dropdown-content">
+                    <li><a href="">ASUS</a></li>
+                    <li><a href="">GIGABYTE</a></li>
+                    <li><a href="">AGGROCK</a></li>
+                    <li><a href="">NVIDEA</a></li>
+                    <li><a href="">MSI</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown"><button class="lt-nav-2">Tienda</button>
+                <ul class="collapse-lug dropdown-content">
+                    <li><a href="">Cercado de Lima</a></li>
+                    <li><a href="">Paruro</a></li>
+                    <li><a href="">Miraflores</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown"><button class="lt-nav-3">Contactanos</button>
+                <ul class="collapse-lug dropdown-content">
+                    <li><a href="">Redes</a></li>
+                    <li><a href="">Conocenos</a></li>
+                    <li><a href="">Reclamos</a></li>
+                </ul>
+            </li>
         </ul>
     </div>
 </nav>
