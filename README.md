@@ -1,7 +1,9 @@
 # Compumax
 front de una pagina de ventas de tecnologia 
 en desarrollo...
-lenguaje centra javascript
+
+lenguaje centra javascript 
+
 framework : jquery, fecth api
 
 imprementacion de base de datos
