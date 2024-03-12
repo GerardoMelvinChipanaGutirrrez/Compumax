@@ -9,4 +9,4 @@ framework : jquery, fecth api
 imprementacion de base de datos
 paginas dedicadas a a los productos
 
-![alt text](imagenes/image.png)
+![alt text](pagina 2/imagenes/image.png)
